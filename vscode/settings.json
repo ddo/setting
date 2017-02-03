@@ -1,0 +1,27 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "window.zoomLevel": 1.5,
+    "window.newWindowDimensions": "inherit",
+
+    "explorer.openEditors.visible": 0,
+
+    "editor.fontSize": 13,
+    "editor.fontFamily": "Source Code Pro",
+    "editor.wordWrap": true,
+
+    "terminal.integrated.fontSize": 14,
+    
+    "go.lintOnSave": true,
+    "go.vetOnSave": true,
+    "go.buildTags": "",
+    "go.buildFlags": [],
+    "go.lintTool": "golint",
+    "go.lintFlags": [],
+    "go.vetFlags": [],
+    "go.coverOnSave": false,
+    "go.useCodeSnippetsOnFunctionSuggest": false,
+    "go.formatOnSave": true, 
+    "go.formatTool": "goreturns",
+    "go.formatFlags": [],
+    "go.gocodeAutoBuild": false
+}
