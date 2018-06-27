@@ -1,27 +1,27 @@
-// Place your settings in this file to overwrite the default settings
 {
-    "window.zoomLevel": 1.5,
-    "window.newWindowDimensions": "inherit",
-
-    "explorer.openEditors.visible": 0,
-
-    "editor.fontSize": 13,
-    "editor.fontFamily": "Source Code Pro",
-    "editor.wordWrap": true,
-
-    "terminal.integrated.fontSize": 14,
-    
-    "go.lintOnSave": true,
-    "go.vetOnSave": true,
-    "go.buildTags": "",
-    "go.buildFlags": [],
-    "go.lintTool": "golint",
-    "go.lintFlags": [],
-    "go.vetFlags": [],
-    "go.coverOnSave": false,
-    "go.useCodeSnippetsOnFunctionSuggest": false,
-    "go.formatOnSave": true, 
-    "go.formatTool": "goreturns",
-    "go.formatFlags": [],
-    "go.gocodeAutoBuild": false
+    "window.zoomLevel": 1,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "editor.wordWrap": "on",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14.5,
+    "workbench.colorTheme": "Enki",
+    "eslint.validate": [
+        "javascript",
+        "vue",
+    ],
+    "vetur.validation.template": true,
+    "explorer.confirmDelete": false,
+    "explorer.autoReveal": false,
+    "workbench.startupEditor": "none",
+    "window.closeWhenEmpty": false,
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "nativescript.analytics.enabled": false,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "es5",
 }
