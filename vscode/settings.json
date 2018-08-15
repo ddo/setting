@@ -1,35 +1,41 @@
-// Place your key bindings in this file to overwrite the defaults
-[{
-        "key": "ctrl+b",
-        "command": "editor.action.formatDocument",
-        "when": "editorFocus"
+{
+    "window.zoomLevel": 1,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "editor.wordWrap": "on",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14.5,
+    "workbench.colorTheme": "Enki",
+    "eslint.validate": [
+        "javascript",
+        "vue",
+    ],
+    "vetur.validation.template": true,
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vetur.format.defaultFormatterOptions": {
+        "js-beautify-html": {
+            "wrap_attributes": "force-aligned"
+        }
     },
-    {
-        "key": "ctrl+shift+b",
-        "command": "editor.action.formatSelection",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+g",
-        "command": "editor.action.nextMatchFindAction",
-        "when": "editorFocus"
-    },
-    {
-        "key": "ctrl+shift+g",
-        "command": "editor.action.previousMatchFindAction",
-        "when": "editorFocus"
-    },
-    {
-        "key": "ctrl+;",
-        "command": "workbench.action.gotoLine"
-    },
-    {
-        "key": "ctrl+i",
-        "command": "go.import.add",
-        "when": "editorFocus"
-    },
-    {
-        "key": "ctrl+t",
-        "command": "workbench.action.terminal.openNativeConsole"
-    },
-]
+    "explorer.confirmDelete": false,
+    "explorer.autoReveal": false,
+    "workbench.startupEditor": "none",
+    "window.closeWhenEmpty": false,
+    "editor.formatOnPaste": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "nativescript.analytics.enabled": false,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "es5",
+    "explorer.openEditors.visible": 0,
+    "extensions.ignoreRecommendations": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.formatOnSave": true,
+    "terminal.integrated.copyOnSelection": true,
+    "diffEditor.renderSideBySide": false,
+    "workbench.iconTheme": "vscode-great-icons",
+    "haskell.ghcMod.executablePath": "stack",
+}
