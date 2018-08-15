@@ -1,6 +1,5 @@
 // Place your key bindings in this file to overwrite the defaults
-[   
-    {
+[{
         "key": "ctrl+b",
         "command": "editor.action.formatDocument",
         "when": "editorFocus"
@@ -23,5 +22,14 @@
     {
         "key": "ctrl+;",
         "command": "workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "go.import.add",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.terminal.openNativeConsole"
     },
 ]
